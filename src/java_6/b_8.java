@@ -1,4 +1,4 @@
-package sixth;
+package java_6;
 
 import java.util.Scanner;
 

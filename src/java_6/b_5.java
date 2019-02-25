@@ -1,4 +1,4 @@
-package sixth;
+package java_6;
 
 public class b_5 {
 	public static void test(int[] x)

@@ -1,4 +1,4 @@
-package sixth;
+package java_6;
 
 public class b_6 {
 	public static void main(String args[]){
