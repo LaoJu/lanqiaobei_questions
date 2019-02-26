@@ -34,12 +34,14 @@ public class b_3 {
 	}
 	
 	public static int f(int x,int y){
-		//x范围0-3
-		//y范围0-4
-		if(x==3 || y==4){ //TODO 或？
+		//x范围0-4
+		//y范围0-3
+		if(x==4 || y==3){ //因为当到达最右或者最下时如果还没到目的地，其实也相当于确定了之后的路线，只能继续向右或向下走完，所以用“或”的逻辑
+			
 			return 1;
 		}
-		return f(x+1,y)+f(x, y+1);
+		
+		return f(x+1,y)+f(x,y+1);
 	}
 
 }
