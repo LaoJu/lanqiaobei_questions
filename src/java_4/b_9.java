@@ -49,6 +49,7 @@ CPU消耗  < 3000ms
 
 //1.1-9的全排列，递归实现
 //2.简单枚举进行判断
+
 public class b_9 {
 	static int N;
 	static int sum=0;
